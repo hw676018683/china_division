@@ -112,7 +112,7 @@ func GetJsonChildren(code string) []byte {
 	case CityCode:
 		return GetJsonAreas(code)
 	default:
-		return []byte("{}")
+		return []byte("[]")
 	}
 }
 
@@ -145,7 +145,7 @@ func GetProvinces() []Row {
 // 获得 json 格式的所有市名及其代码
 func GetJsonCities(code string) []byte {
 	if CodeType(code) != ProvinceCode {
-		return []byte("{}")
+		return []byte("[]")
 	}
 	return cityJson[code[:2]]
 }
@@ -161,7 +161,7 @@ func GetCities(code string) []Row {
 // 获得 json 格式的所有区县名及其代码
 func GetJsonAreas(code string) []byte {
 	if CodeType(code) != CityCode {
-		return []byte("{}")
+		return []byte("[]")
 	}
 	return areaJson[code[:4]]
 }
