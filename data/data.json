@@ -8,6 +8,14 @@
     "town": 0
   },
   {
+    "code": "110100",
+    "name": "北京市",
+    "province": "11",
+    "city": "01",
+    "area": 0,
+    "town": 0
+  },
+  {
     "code": "110101",
     "name": "东城区",
     "province": "11",
@@ -140,6 +148,14 @@
     "name": "天津市",
     "province": "12",
     "city": 0,
+    "area": 0,
+    "town": 0
+  },
+  {
+    "code": "120100",
+    "name": "天津市",
+    "province": "12",
+    "city": "01",
     "area": 0,
     "town": 0
   },
@@ -6236,6 +6252,14 @@
     "name": "上海市",
     "province": "31",
     "city": 0,
+    "area": 0,
+    "town": 0
+  },
+  {
+    "code": "310100",
+    "name": "上海市",
+    "province": "31",
+    "city": "01",
     "area": 0,
     "town": 0
   },
@@ -17756,6 +17780,14 @@
     "name": "重庆市",
     "province": "50",
     "city": 0,
+    "area": 0,
+    "town": 0
+  },
+  {
+    "code": "500100",
+    "name": "重庆市",
+    "province": "50",
+    "city": "01",
     "area": 0,
     "town": 0
   },
